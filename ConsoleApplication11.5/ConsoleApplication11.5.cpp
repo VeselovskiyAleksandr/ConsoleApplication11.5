@@ -21,7 +21,7 @@ int main()
 		}
 		else {
 			cout << "\nПрошло " << counter << " сек. Скачано " << counter * downloadSpeed <<
-				" из " << fileSize << " мб (" << round(counter * downloadSpeed * 100 / fileSize) << "%).";
+				" из " << fileSize << " мб (" << floor(counter * downloadSpeed * 100 / fileSize) << "%).";
 		}
 	}
    
